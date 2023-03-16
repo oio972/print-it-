@@ -4,11 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Print it ! - Impressions d'entreprise</title>
-	<link rel="stylesheet" href="/assets/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://kit.fontawesome.com/9733344266.css" crossorigin="anonymous">
 </head>
 <body>
 <header class="container">
@@ -18,10 +17,14 @@
 	<a class="btn devis" href="mailto:contact@print-it.tld">Devis</a>
 </header>
 <main>
+<!-- ma partie du carrousel -->
 	<div id="banner">
 		<img class="arrow" id="arrow_left" src="assets/images/arrow_left.png" alt="fleche de gauche">
 		<img class="arrow" id="arrow_right" src="assets/images/arrow_right.png" alt="fleche de droite">
-		<img class="banner-img" id="image1" src="assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
+		<img class="banner-img" id="image4" src="assets/images/slideshow/slide4.jpg" alt="Banner Print-it">
+		<img class="banner-img" id="image3" src="assets/images/slideshow/slide3.jpg" alt="Banner Print-it2">
+		<img class="banner-img" id="image2" src="assets/images/slideshow/slide2.png" alt="Banner Print-it3">
+		<img class="banner-img" id="image1" src="assets/images/slideshow/slide1.jpg" alt="Banner Print-it4">
 			<p>Impressions tous formats <span>en boutique et en ligne</span></p>
 		<div class="dots">
 			<i class="dot dot_selected fa-regular fa-circle"></i>
@@ -30,6 +33,21 @@
 			<i class="dot fa-regular fa-circle"></i>
 		</div>
 	</div>
+<!--fin ma partie du carrousel -->
+<!-- code trouvé pour exemple -->
+	<div id="banner">
+		<img class="banner-img" id="banner-img" src="./assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
+		<p id="banner-p">Impressions tous formats <span>en boutique et en ligne</span></p>
+		<div id="slide_left" class="arrow arrow_left">
+			<img src="./assets/images/arrow_left.png" alt="arrow left">
+		</div>
+		<div id="slide_right" class="arrow arrow_right">
+			<img src="./assets/images/arrow_right.png" alt="arrow right">
+		</div>
+		<div id="bullet_point" class="dots dot">
+		</div>
+	</div>
+<!--fin code trouvé pour exemple -->
 	<section id="about-us" class="container">
 		<div>
 			<h2>Qui sommes-nous ?</h2>
@@ -48,7 +66,7 @@
 			<p>Grâce à nos nombreuses années d'expérience dans l'impression de produits évènementiels et supports de communication, nous ne cessons d'innover et de perfectionner nos services afin de satisfaire au mieux nos clients. Vous pourrez parcourir les différentes rubriques du site afin de découvrir notre large gamme de papiers et finitions, pour des produits aussi divers que les dépliants ou plaquettes promotionnelles, les brochures, les flyers, les goodies d’entreprises, les autocollants de toutes tailles... </p>
 		</div>
 		<aside>
-			<img src="./assets/images/yellow-book.jpg" alt="Imprimeur avec un livre jaune dans les mains">
+			<img src="assets/images/yellow-book.jpg" alt="Imprimeur avec un livre jaune dans les mains">
 		</aside>
 
 	</section>
@@ -130,6 +148,6 @@
 		<img class="footer-logo" src="/assets/images/logo.png" alt="Print it ! Impressions d'entreprises" >
 	</div>
 </footer>
-<script src="/assets/script.js"></script>
+<script src="/assets/javascript/script.js"></script>
 </body>
 </html>
