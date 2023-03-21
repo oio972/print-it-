@@ -2,6 +2,6 @@
 
 projet 5
 
-[code source](https://github.com/oio972/print-it-)
+[code source](https://github.com/oio972/print-it-.git)
 
-[page]()
+[page](https://oio972.github.io/print-it-/index.html)
